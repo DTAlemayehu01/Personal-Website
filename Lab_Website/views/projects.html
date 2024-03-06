@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+        />
+        <link rel="stylesheet2" href="../resources/css/style.css">
+    </head>
+    <body>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"
+        ></script>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                 <img src="../resources/img/logo.png" alt="Bootstrap" width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="home.html">Home</a>
+                <a class="nav-link" href="hobbies.html">Hobbies</a>
+                <a class="nav-link active" aria-current="page" href="project.html">Project</a>
+                <a class="nav-link" href="../resources/doc/resume.pdf">Resume</a>
+              </div>
+            <div class="ms-auto">
+                <img src="../resources/img/icon.jpeg" alt="skull logo" width="35px" height="35px" class="d-inline-block align-text-top"></img>
+            </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" id="projects">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" id="carousel-item-1">
+                  <img src="../resources/img/slide1.png" class="d-block w-100" alt="help">
+                    <div class="carousel-caption d-none d-md-block">
+                    <div class="card" style="width: full">
+                      <div class="card-body">
+                        <h5 class="card-title">Self-Hosting!</h5>
+                        <p class="card-text">This is a picture of my personal server! One way I learn more about computers is through self-hosting!</p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="carousel-item-2">
+                  <img src="../resources/img/slide2.webp" class="d-block w-100" alt="help">
+                    <div class="carousel-caption d-none d-md-block">
+                    <div class="card" style="width: full">
+                      <div class="card-body">
+                        <h5 class="card-title">Scripts!</h5>
+                        <p class="card-text">This is a screenshot of my recent scripting snippet, I like to write scripts to automate certain things</p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="carousel-item-3">
+                  <img src="../resources/img/slide3.png" class="d-block w-100" alt="help">
+                    <div class="carousel-caption d-none d-md-block">
+                    <div class="card" style="width: full">
+                      <div class="card-body">
+                        <h5 class="card-title">Note Taking Repos!</h5>
+                        <p class="card-text">I also like to take my notes in Emacs! This is a screenshot from my Ctutorials reposiory!</p>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" id="carousel-prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" id="carousel-next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+        </div>
+        <footer class="text-center bg-body-tertiary">
+          <!-- Grid container -->
+          <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Linkedin -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="https://www.linkedin.com/in/dtalemayehu/"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-linkedin"><img src="../resources/img/img2.png" width="30px" height="30px"></i
+              ></a>
+              <!-- Github -->
+              <a
+                data-mdb-ripple-init
+                class="btn btn-link btn-floating btn-lg text-body m-1"
+                href="https://github.com/DTAlemayehu01"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-github"><img src="../resources/img/img3.png" width="30px" height="30px"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+    </body>
+</html>
